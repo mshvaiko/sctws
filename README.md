@@ -18,13 +18,14 @@
 >*pip install -r requirements.txt*
 
 #### Change hardcoded ip-address to your own
->*app.run(host="<your IP-address>", debug=True)
+>*app.run(host="\<your IP-address\>", debug=True)
 
 #### Run script:
 >*python app.py*
 
 #### Open web browser and type URL
->*http://<Your IP-address>:5000/*
+>*http://\<Your IP-address>:5000/*
+>*Example: http://192.168.31.38:5000/*
 
 ##### Supported route path
->- */screen_0*
+>- *http://\<Your IP-address\>:5000/screen_0*
