@@ -23,7 +23,7 @@ def gen_frames():
 def index():
     return render_template('index.html')
 
-@app.route('/video_feed')
+@app.route('/screen_0')
 def video_feed():
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
