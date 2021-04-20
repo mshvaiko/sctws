@@ -6,7 +6,7 @@
 >*git clone https://github.com/mshvaiko/sctws.git*
 
 #### Move to dir:
->*cd screen_web_streamer*
+>*cd sctws*
 
 #### Create venv:
 >*python3 -m venv env*
